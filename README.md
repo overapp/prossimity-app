@@ -1,2 +1,2 @@
-# prossimity-app
-ProssimityApp
+# proximity-app
+ProximityApp
