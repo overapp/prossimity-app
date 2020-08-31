@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ProssimityApp
+//  ProximityApp
 //
 //  Created by Lavinia Bertuzzi on 04/03/2020.
 //  Copyright © 2020 OverApp. All rights reserved.
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     var centralManager: CBCentralManager!
     
     var timer = Timer()
-    // Per ogni dispositivo dato il suo ID memorizzo il suo filtro (a se associato)
+    // For each device store id and associated filter
     var items: [String : KalmanFilter] = [:]
     
     //MARK: - ViewController LifeCycle
@@ -68,7 +68,6 @@ extension ViewController: CBCentralManagerDelegate {
     }
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-        // TODO: Print advertisingData
         // Filter discovered devices by name...
         if let name = peripheral.name {
             if let power = advertisementData[CBAdvertisementDataTxPowerLevelKey] as? Double {

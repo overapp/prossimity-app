@@ -1,6 +1,6 @@
 //
 //  KalmanFilter.swift
-//  ProssimityApp
+//  ProximityApp
 //
 //  Created by Lavinia Bertuzzi on 05/03/2020.
 //  Copyright © 2020 OverApp. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ProssimityApp
+//  ProximityApp
 //
 //  Created by Lavinia Bertuzzi on 04/03/2020.
 //  Copyright © 2020 OverApp. All rights reserved.

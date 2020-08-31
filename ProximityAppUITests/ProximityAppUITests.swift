@@ -1,6 +1,6 @@
 //
-//  ProssimityAppUITests.swift
-//  ProssimityAppUITests
+//  ProximityAppUITests.swift
+//  ProximityAppUITests
 //
 //  Created by Lavinia Bertuzzi on 04/03/2020.
 //  Copyright © 2020 OverApp. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ProssimityAppUITests: XCTestCase {
+class ProximityAppUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

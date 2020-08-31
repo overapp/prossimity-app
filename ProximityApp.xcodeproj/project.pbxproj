@@ -12,7 +12,7 @@
 		AF43F3CF240FF3BE00F217D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF43F3CD240FF3BE00F217D0 /* Main.storyboard */; };
 		AF43F3D1240FF3C100F217D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF43F3D0240FF3C100F217D0 /* Assets.xcassets */; };
 		AF43F3D4240FF3C100F217D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF43F3D2240FF3C100F217D0 /* LaunchScreen.storyboard */; };
-		AF43F3DF240FF3C100F217D0 /* ProssimityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43F3DE240FF3C100F217D0 /* ProssimityAppUITests.swift */; };
+		AF43F3DF240FF3C100F217D0 /* ProximityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43F3DE240FF3C100F217D0 /* ProximityAppUITests.swift */; };
 		AFD549BA24105B930012C363 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD549B924105B930012C363 /* CoreBluetooth.framework */; };
 		AFD549BC24106F030012C363 /* KalmanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD549BB24106F030012C363 /* KalmanFilter.swift */; };
 		AFD549C02410757B0012C363 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD549BF2410757B0012C363 /* AudioToolbox.framework */; };
@@ -29,15 +29,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF43F3C4240FF3BE00F217D0 /* ProssimityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProssimityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF43F3C4240FF3BE00F217D0 /* ProximityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF43F3C7240FF3BE00F217D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF43F3CB240FF3BE00F217D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF43F3CE240FF3BE00F217D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF43F3D0240FF3C100F217D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF43F3D3240FF3C100F217D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF43F3D5240FF3C100F217D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF43F3DA240FF3C100F217D0 /* ProssimityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProssimityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF43F3DE240FF3C100F217D0 /* ProssimityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProssimityAppUITests.swift; sourceTree = "<group>"; };
+		AF43F3DA240FF3C100F217D0 /* ProximityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProximityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF43F3DE240FF3C100F217D0 /* ProximityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityAppUITests.swift; sourceTree = "<group>"; };
 		AF43F3E0240FF3C100F217D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF43F3EA24100A6900F217D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AFD549B924105B930012C363 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -68,8 +68,8 @@
 		AF43F3BB240FF3BE00F217D0 = {
 			isa = PBXGroup;
 			children = (
-				AF43F3C6240FF3BE00F217D0 /* ProssimityApp */,
-				AF43F3DD240FF3C100F217D0 /* ProssimityAppUITests */,
+				AF43F3C6240FF3BE00F217D0 /* ProximityApp */,
+				AF43F3DD240FF3C100F217D0 /* ProximityAppUITests */,
 				AF43F3C5240FF3BE00F217D0 /* Products */,
 				AF43F3E924100A6900F217D0 /* Frameworks */,
 			);
@@ -78,13 +78,13 @@
 		AF43F3C5240FF3BE00F217D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF43F3C4240FF3BE00F217D0 /* ProssimityApp.app */,
-				AF43F3DA240FF3C100F217D0 /* ProssimityAppUITests.xctest */,
+				AF43F3C4240FF3BE00F217D0 /* ProximityApp.app */,
+				AF43F3DA240FF3C100F217D0 /* ProximityAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF43F3C6240FF3BE00F217D0 /* ProssimityApp */ = {
+		AF43F3C6240FF3BE00F217D0 /* ProximityApp */ = {
 			isa = PBXGroup;
 			children = (
 				AF43F3C7240FF3BE00F217D0 /* AppDelegate.swift */,
@@ -95,16 +95,16 @@
 				AF43F3D2240FF3C100F217D0 /* LaunchScreen.storyboard */,
 				AF43F3D5240FF3C100F217D0 /* Info.plist */,
 			);
-			path = ProssimityApp;
+			path = ProximityApp;
 			sourceTree = "<group>";
 		};
-		AF43F3DD240FF3C100F217D0 /* ProssimityAppUITests */ = {
+		AF43F3DD240FF3C100F217D0 /* ProximityAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AF43F3DE240FF3C100F217D0 /* ProssimityAppUITests.swift */,
+				AF43F3DE240FF3C100F217D0 /* ProximityAppUITests.swift */,
 				AF43F3E0240FF3C100F217D0 /* Info.plist */,
 			);
-			path = ProssimityAppUITests;
+			path = ProximityAppUITests;
 			sourceTree = "<group>";
 		};
 		AF43F3E924100A6900F217D0 /* Frameworks */ = {
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF43F3C3240FF3BE00F217D0 /* ProssimityApp */ = {
+		AF43F3C3240FF3BE00F217D0 /* ProximityApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF43F3E3240FF3C100F217D0 /* Build configuration list for PBXNativeTarget "ProssimityApp" */;
+			buildConfigurationList = AF43F3E3240FF3C100F217D0 /* Build configuration list for PBXNativeTarget "ProximityApp" */;
 			buildPhases = (
 				AF43F3C0240FF3BE00F217D0 /* Sources */,
 				AF43F3C1240FF3BE00F217D0 /* Frameworks */,
@@ -132,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = ProssimityApp;
+			name = ProximityApp;
 			productName = ProssimityApp;
-			productReference = AF43F3C4240FF3BE00F217D0 /* ProssimityApp.app */;
+			productReference = AF43F3C4240FF3BE00F217D0 /* ProximityApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF43F3D9240FF3C100F217D0 /* ProssimityAppUITests */ = {
+		AF43F3D9240FF3C100F217D0 /* ProximityAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF43F3E6240FF3C100F217D0 /* Build configuration list for PBXNativeTarget "ProssimityAppUITests" */;
+			buildConfigurationList = AF43F3E6240FF3C100F217D0 /* Build configuration list for PBXNativeTarget "ProximityAppUITests" */;
 			buildPhases = (
 				AF43F3D6240FF3C100F217D0 /* Sources */,
 				AF43F3D7240FF3C100F217D0 /* Frameworks */,
@@ -150,9 +150,9 @@
 			dependencies = (
 				AF43F3DC240FF3C100F217D0 /* PBXTargetDependency */,
 			);
-			name = ProssimityAppUITests;
+			name = ProximityAppUITests;
 			productName = ProssimityAppUITests;
-			productReference = AF43F3DA240FF3C100F217D0 /* ProssimityAppUITests.xctest */;
+			productReference = AF43F3DA240FF3C100F217D0 /* ProximityAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF43F3BF240FF3BE00F217D0 /* Build configuration list for PBXProject "ProssimityApp" */;
+			buildConfigurationList = AF43F3BF240FF3BE00F217D0 /* Build configuration list for PBXProject "ProximityApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF43F3C3240FF3BE00F217D0 /* ProssimityApp */,
-				AF43F3D9240FF3C100F217D0 /* ProssimityAppUITests */,
+				AF43F3C3240FF3BE00F217D0 /* ProximityApp */,
+				AF43F3D9240FF3C100F217D0 /* ProximityAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF43F3DF240FF3C100F217D0 /* ProssimityAppUITests.swift in Sources */,
+				AF43F3DF240FF3C100F217D0 /* ProximityAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +237,7 @@
 /* Begin PBXTargetDependency section */
 		AF43F3DC240FF3C100F217D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF43F3C3240FF3BE00F217D0 /* ProssimityApp */;
+			target = AF43F3C3240FF3BE00F217D0 /* ProximityApp */;
 			targetProxy = AF43F3DB240FF3C100F217D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -382,14 +382,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4F92QF8X6J;
-				INFOPLIST_FILE = ProssimityApp/Info.plist;
+				INFOPLIST_FILE = ProximityApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.overapp.ProssimityApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overapp.ProximityApp;
+				PRODUCT_NAME = ProximityApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,14 +401,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4F92QF8X6J;
-				INFOPLIST_FILE = ProssimityApp/Info.plist;
+				INFOPLIST_FILE = ProximityApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.overapp.ProssimityApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overapp.ProximityApp;
+				PRODUCT_NAME = ProximityApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -420,17 +420,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4F92QF8X6J;
-				INFOPLIST_FILE = ProssimityAppUITests/Info.plist;
+				INFOPLIST_FILE = ProximityAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.overapp.ProssimityAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.overapp.ProximityAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProssimityApp;
+				TEST_TARGET_NAME = ProximityApp;
 			};
 			name = Debug;
 		};
@@ -440,24 +440,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4F92QF8X6J;
-				INFOPLIST_FILE = ProssimityAppUITests/Info.plist;
+				INFOPLIST_FILE = ProximityAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.overapp.ProssimityAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.overapp.ProximityAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProssimityApp;
+				TEST_TARGET_NAME = ProximityApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF43F3BF240FF3BE00F217D0 /* Build configuration list for PBXProject "ProssimityApp" */ = {
+		AF43F3BF240FF3BE00F217D0 /* Build configuration list for PBXProject "ProximityApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF43F3E1240FF3C100F217D0 /* Debug */,
@@ -466,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF43F3E3240FF3C100F217D0 /* Build configuration list for PBXNativeTarget "ProssimityApp" */ = {
+		AF43F3E3240FF3C100F217D0 /* Build configuration list for PBXNativeTarget "ProximityApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF43F3E4240FF3C100F217D0 /* Debug */,
@@ -475,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF43F3E6240FF3C100F217D0 /* Build configuration list for PBXNativeTarget "ProssimityAppUITests" */ = {
+		AF43F3E6240FF3C100F217D0 /* Build configuration list for PBXNativeTarget "ProximityAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF43F3E7240FF3C100F217D0 /* Debug */,
